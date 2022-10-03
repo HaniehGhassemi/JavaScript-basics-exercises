@@ -12,3 +12,8 @@ if (isNaN(UserAge)) {
 } else {
     alert("Year of Birth is:" + UserAge );
 }
+
+// if user put a year more than now, this meassage show:
+if (UserAge < 0) {
+    alert("please enter year of your birth correctly");
+}
